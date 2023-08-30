@@ -7,7 +7,8 @@
   "private": true,
   "dependencies": {
     "@sap/cds": "^7",
-    "express": "^4"
+    "express": "^4",
+    "sqlite3": "^5.1.6"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
@@ -16,6 +17,20 @@
   "scripts": {
     "start": "cds watch",
     "watch-allstudents": "cds watch --open allstudents/webapp/index.html?sap-ui-xx-viewCache=false"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "[production]": {
+          "kind": "sqlite",
+          "model": [
+            "db/",
+            "srv/",
+            "app/"
+          ]
+        }
+      }
+    }
   },
   "sapux": [
     "app/allstudents"

@@ -1,7 +1,7 @@
 namespace com.gioser;
 
 entity Student {
-    key email        : String(65); // @(title:'I-mail');
+    key email        : String(65) @(title:'EEEE-mail');
         first_name   : String(20);
         last_name    : String(20);
         date_sign_up : Date;
