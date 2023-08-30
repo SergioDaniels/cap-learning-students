@@ -1,12 +1,13 @@
 namespace com.gioser;
 
 entity Student {
-    key email        : String(65);
+    key email        : String(65); // @(title:'I-mail');
         first_name   : String(20);
         last_name    : String(20);
         date_sign_up : Date;
 };
 
+/*
 annotate Student with @(
     UI: {
     //SelectionFields : [],     
@@ -36,3 +37,4 @@ annotate Student with @(
     },
     }
 );
+*/
