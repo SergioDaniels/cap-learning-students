@@ -29,13 +29,13 @@ Learn more at https://cap.cloud.sap/docs/get-started/.
 GIT commands (cheatsheet)
 
 - `git ini` (local initialization) 
-- **git config --global user.name "user"** (login) 
-- **git config --global user.email "email"** (logi) 
-- git remote add origin URL (add repo) 
-- git add . (Add all files) 
-- git commit -m "message" (local) 
-- git push -f origin main (force, already exists the readme.txt) 
-- add token to te app. 
+- `git config --global user.name "user"` (login) 
+- `git config --global user.email "email"` (logi) 
+- `git remote add origin URL` (add repo) 
+- `git add .` (Add all files) 
+- `git commit -m "message"` (local) 
+- `git push -f origin main` (force, already exists the readme.txt) 
+- Add token to te app. 
 
 
 
